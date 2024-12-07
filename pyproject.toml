@@ -1,10 +1,10 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=61.0", "setuptools_scm>=8"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "xbrl-forge"
-version = "0.0.1"
+dynamic = ["version"]
 authors = [
   { name="Anton Heitz", email="anton.j.heitz@gmail.com" },
 ]
@@ -25,3 +25,5 @@ dependencies = [
 [project.urls]
 Homepage = "https://github.com/antonheitz/xBRL-Forge"
 Issues = "https://github.com/antonheitz/xBRL-Forge/issues"
+
+[tool.setuptools_scm]
