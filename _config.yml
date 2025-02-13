@@ -9,3 +9,5 @@ github:
   is_project_page: true
   repository_url: https://github.com/antonheitz/xBRL-Forge
   owner_url: https://github.com/antonheitz
+
+mermaid: true
