@@ -63,10 +63,20 @@ flowchart TD
 ## All the Features
 
 - **Multi-Source Integration**: Seamlessly gather data from various software solutions and compile them into a unified XBRL or iXBRL report.
+
 - **XBRL Taxonomy Generation**: Create customizable XBRL taxonomies to meet your reporting needs.
+
 - **Easy JSON Structure**: Integrate data using an intuitive and straightforward JSON format.
+
 - **Open Source**: Contribute to the community and enhance the functionality of xBRL Forge.
+
 - **Data conversion**: Prepare your data in a Word file (docx) and then convert it to the xBRL Forge data structure to enhance it with tags!
+
+- **Supported Data Types**: 
+  - Numeric Data (monetary, emissions, etc.)
+  - formatted string data (boolean, date, etc.)
+  - untransformable data (enumeration, enumerationSet)
+  - escaped string data (textBlock, etc.)
 
 ## Guides
 
