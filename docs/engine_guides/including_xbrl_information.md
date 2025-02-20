@@ -212,7 +212,13 @@ The second sentence should be tagged with the `boolean` concept `extension-prefi
 
     // attributes define the meta information tied to every fact
     "attributes": {
-        // only the transforamtion 
+        // only the transforamtion rule will be set
+        // in this cas the transformation to a false boolean value
+        "format": {
+            // make sure that this is included in the `namespaces` property of the report json
+            "namespace": "http://www.xbrl.org/inlineXBRL/transformation/2020-02-12",
+            "name": "fixed-false"
+        },
     }
 },
 ```
