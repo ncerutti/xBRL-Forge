@@ -1,5 +1,7 @@
 # xBRL-Forge
 
+![Sonny and Mariel high fiving.](images/logo.svg)
+
 ## Overview
 
 **xBRL-Forge** is an open-source software solution designed to streamline the process of creating final XBRL (eXtensible Business Reporting Language) and iXBRL (Inline XBRL) reports by integrating data from multiple software applications. With xBRL-Forge, users can effortlessly generate XBRL taxonomies and compile comprehensive reports using a simple JSON structure for integration.
